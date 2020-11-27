@@ -984,3 +984,5 @@ c80cf8,::1,GET,http://localhost:8000/assets/js/bootstrap.min.js.map,1606040697,a
 a8d802,::1,GET,http://localhost:8000/assets/js/bootstrap.min.js.map,1606040697,,404
 aff03d,::1,GET,http://localhost:8000/assets/js/popper.min.js.map,1606040697,15cd7b,404
 15cd7b,::1,GET,http://localhost:8000/assets/js/popper.min.js.map,1606040697,,404
+657029,::1,GET,http://localhost:8000/,1606473460,,200
+f060bc,::1,GET,http://localhost:8000/,1606473461,,200
