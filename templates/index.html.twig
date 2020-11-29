@@ -7,12 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Everything is possible">
-
+    <meta property="og:image" content="{{ asset('assets/img/favicon.png') }}">
     <!-- ========== Page Title ========== -->
     <title>WDC Solution LLC</title>
 
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('assets/img/favicon.png') }}" type="image/x-icon">
 
     <!-- ========== Start Stylesheet ========== -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" />
@@ -69,7 +69,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img style="width:150px; height:50px" src="assets/img/logo.png" class="logo" alt="Logo">
+                        <img style="height:50px" src="assets/img/logo.png" class="logo" alt="Logo">
                     </a>
                 </div>
                 <!-- End Header Navigation -->
@@ -446,19 +446,16 @@
                             <div class="row">
 
                                 <div class="col-lg-8 order-last thumb">
-                                    <img src="assets/img/2440x1578.png" alt="Thumb">
+                                    <img src="{{ asset('./assets/img/Overview/Eanplock2.png') }}" alt="Thumb">
                                 </div>
 
                                 <div class="col-lg-4 info">
                                     <div class="title">
-                                        <h4>App Integration</h4>
+                                        <h4>EANPLOCK</h4>
                                         <span>01</span>
                                     </div>
                                     <p>
-                                        If continue building numerous of at relation in margaret. Lasted engage roused mother.
-                                    </p>
-                                    <p>
-                                        Consectetur adipisicing, elit. Necessitatibus, vitae saepe esse voluptas perferendis! Quidem dignissimos rerum, praesentium officia tempore qui obcaecati sint id ea itaque quibusdam iste accusamus totam.
+                                        Шведийн олон салбар бүхий тус компани нь захиалгаа уламжлалт аргаар бичгээр явдаг ба түүнийг хянах ахин дахин хэвлэх, удирдах албан тушаалтанаар хянуулах, нэхэмжлэл гаргах зэрэг хүндрэлтэй байсан асуудлийг шийдэн бараа захиалгын системийг хийн шведийн татварын системтэй уялдан захиалга амжилттай хийгдсэн тохиолдолд нэхэмжлэл автоматаар үүсгэх болон тухайн захиалгын төлөвийг удирдах боломжоор бүрдүүлэн өгсөн.
                                     </p>
                                     <a href="#">Know more <i class="fas fa-angle-right"></i></a>
                                 </div>
@@ -471,19 +468,16 @@
                             <div class="row">
 
                                 <div class="col-lg-8 order-last thumb">
-                                    <img src="assets/img/2440x1578.png" alt="Thumb">
+                                    <img src="{{ asset('./assets/img/Overview/io2.png') }}" alt="Thumb">
                                 </div>
 
                                 <div class="col-lg-4 info">
                                     <div class="title">
-                                        <h4>App Customization</h4>
+                                        <h4>IO APP</h4>
                                         <span>02</span>
-                                    </div>
+                                    </div> 
                                     <p>
-                                        Delevary building numerous of at relation in margaret. Lasted engage roused mother.
-                                    </p>
-                                    <p>
-                                        Consectetur adipisicing, elit. Necessitatibus, vitae saepe esse voluptas perferendis! Quidem dignissimos rerum, praesentium officia tempore qui obcaecati sint id ea itaque quibusdam iste accusamus totam.
+                                        Энэхүү APP нь монголын хамгийн анхны хуримтлал, сургалтын цогц APP юм. Уг APP нь одоогоор хийгдэж байгаа.
                                     </p>
                                     <a href="#">Know more <i class="fas fa-angle-right"></i></a>
                                 </div>
@@ -591,8 +585,7 @@
                     <img src="assets/img/shape/dotted-bg-2.png" alt="Shape">
                 </div>
                 <!-- End Fixed Shape -->
-                <div class="row">
-                    <!-- Single Item -->
+                <div class="row" style="justify-content:center">
                     <div class="single-item col-lg-3 col-md-6">
                         <div class="item">
                             <div class="thumb">
@@ -620,10 +613,14 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <!-- Single Item -->
+                    
                     <div class="single-item col-lg-3 col-md-6">
                         <div class="item">
                             <div class="thumb">
-                                <img class="teamimg" src="{{asset('assets/img/team/Bilguun.jpg')}}" alt="Thumb">
+                                <img class="teamimg" src="{{asset('assets/img/team/Bilguun.png')}}" alt="Thumb">
                                 <div class="social">
                                     <ul>
                                         <li class="facebook">
@@ -972,7 +969,7 @@
                                         </div>
                                         <div class="content">
                                             <strong>Address:</strong>
-                                            5919 Trussville Crossings Pkwy, Birmingham AL 35235
+                                            WDC Solution LLC office, Peace Avenue 19, Sukhbaatar District, 1st khoroo, Ulaanbaatar, Mongolia
                                         </div>
                                     </li>
                                     <li>
@@ -981,7 +978,7 @@
                                         </div>
                                         <div class="content">
                                             <strong>Email:</strong>
-                                            <a href="mailto:info@validtheme.com">wdcsolutionllc@gmail.com</a>
+                                            <a href="mailto:info@validtheme.com">info@wdcsolution.com</a>
                                         </div>
                                     </li>
                                     <li>
@@ -990,7 +987,7 @@
                                         </div>
                                         <div class="content">
                                             <strong>Phone:</strong>
-                                            <a href="tel:2151234567">+123 34598768</a>
+                                            <a href="tel:2151234567">+976 99504910</a>
                                         </div>
                                     </li>
                                 </ul>
